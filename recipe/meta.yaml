@@ -11,13 +11,16 @@ source:
 
 build:
   noarch: python
+  number: 1
+  script_env:
+    - SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
 
 requirements:
   host:
     - pip
     - python >=3.8
+    - setuptools_scm
   run:
     - gitpython
     - python >=3.8
