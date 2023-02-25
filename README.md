@@ -1,11 +1,11 @@
-About dvc-studio-client
-=======================
+About dvc-studio-client-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dvc-studio-client-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/iterative/dvc-studio-client
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dvc-studio-client-feedstock/blob/main/LICENSE.txt)
 
 Summary: Small library to post data from DVC/DVCLive to Iterative Studio
 
