@@ -1,5 +1,5 @@
 {% set name = "dvc-studio-client" %}
-{% set version = "0.5.3" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dvc-studio-client-{{ version }}.tar.gz
-  sha256: a4921826f566ffbc7df906e14973b69d412cef86ecd5e2bbaddf4fddc18f66cf
+  sha256: 90107ebc6808645374034b2eb71226dd5d6e004f62a7ad4c410b9c5193d6c902
 
 build:
   noarch: python
